@@ -17,6 +17,7 @@ Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 Plug 'rakr/vim-one'
+Plug 'https://github.com/hrsh7th/nvim-compe'
 
 call plug#end()
 
