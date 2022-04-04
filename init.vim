@@ -1,8 +1,8 @@
 :set number
 :set autoindent
+:set smarttab
 :set tabstop=4
 :set shiftwidth=4
-:set smarttab
 :set softtabstop=4
 
 call plug#begin('C:\Users\acmah\vimfiles\autoload')
@@ -35,12 +35,11 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <A-[> :resize +1 <CR>
 nnoremap <A-]> :resize -1 <CR>
-nnoremap <A-j> :m .+1<CR>==
-nnoremap <A-k> :m .-2<CR>==
-inoremap <A-j> <Esc>:m .+1<CR>==gi
-inoremap <A-k> <Esc>:m .-2<CR>==gi
+nnoremap <A-s> :m .+1<CR>==
+nnoremap <A-w> :m .-2<CR>==
 vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
+
 
 
 let g:NERDTreeDirArrowExpandable="+"
